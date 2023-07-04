@@ -1,0 +1,47 @@
+body{
+    margin-top: 40px;
+    left: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 4rem;
+}
+.pricing-plan{
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+    text-align: center;
+}
+.plan-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: aqua;
+}
+.plan-features{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.plan-features li{
+    margin-bottom: 20px;
+}
+.plan-button{
+    padding: 10px;
+    background-color: yellowgreen;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+@media (max-width:850px){
+    .container{
+        flex-direction: column;
+        height: 100%;
+    }
+}
