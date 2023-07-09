@@ -9,6 +9,9 @@ body{
     height: 80vh;
     gap: 4rem;
 }
+.pricing-plan:hover{
+    box-shadow: 5px 5px 15px gray;
+}
 .pricing-plan{
     flex: 1;
     max-width: 300px;
